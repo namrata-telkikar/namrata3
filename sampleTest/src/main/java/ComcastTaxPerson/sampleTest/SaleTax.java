@@ -23,7 +23,7 @@ public class SaleTax{
 			break;
 		}
 
-		if(itemBasePrice <=0 && itemQuantity <= 0){
+		if(itemBasePrice <=0 || itemQuantity <= 0){
 			System.out.println("Quantity OR Price is zero OR negative !!!");
 		}
 		else{
